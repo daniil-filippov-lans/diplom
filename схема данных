@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-06T11:49:21.578Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="6jDsNsKLhku0iTwQ_XPl" version="18.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-06T11:50:33.428Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="DQ5K6xYftYCOxBjI7a3G" version="18.0.0" type="github">
   <diagram id="otHK95f0AXoaKl61mk9n" name="Page-1">
     <mxGraphModel dx="1185" dy="662" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -37,9 +37,6 @@
         <mxCell id="kyRis5O6HW5BsDEI_k4l-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="kyRis5O6HW5BsDEI_k4l-13" target="kyRis5O6HW5BsDEI_k4l-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="kyRis5O6HW5BsDEI_k4l-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="kyRis5O6HW5BsDEI_k4l-13" target="kyRis5O6HW5BsDEI_k4l-17" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="kyRis5O6HW5BsDEI_k4l-13" value="Обработка данных в ВП ОП" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="370" y="150" width="120" height="80" as="geometry" />
         </mxCell>
@@ -56,7 +53,7 @@
           <mxGeometry x="370" y="510" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="kyRis5O6HW5BsDEI_k4l-17" value="Записи &lt;br&gt;в журнал &lt;br&gt;событий" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.direct_data;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="540" y="30" width="120" height="80" as="geometry" />
+          <mxGeometry x="540" y="150" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="kyRis5O6HW5BsDEI_k4l-19" value="Формирование HTTP-ответа" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="540" y="270" width="120" height="80" as="geometry" />
@@ -140,6 +137,12 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="280" y="170.00000000000006" as="sourcePoint" />
             <mxPoint x="280" y="129.99999999999994" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dHgl9D0cWJr-oOZy7Wh1-37" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryPerimeter=0;" edge="1" parent="1" source="kyRis5O6HW5BsDEI_k4l-13" target="kyRis5O6HW5BsDEI_k4l-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="330" y="200" as="sourcePoint" />
+            <mxPoint x="380" y="200" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
